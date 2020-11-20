@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/fav-icon.png" />
+    <title>
+        Combat sports | Početna | Online shop </title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/js.js" charset="utf-8"></script>
+</head>
+
+
+<body>
+    <div class="index_template">
+    <header>
+        
+        <a href="#">
+            <p>We are <span class="combat">combat</span> sports</p>
+        </a>
+        <img class="logo" src="images/logo.png" alt="logo">
+        
+        <div class="header-right">
+            <ul class="nav_links">
+                <li class="nav-item"><a class="active" href="./index.html"><i class="fa fa-home"></i>&nbsp;Početna</a></li>
+                <li class="nav-item"><a href="./o_nama.html"><i class="fas fa-users"></i>&nbsp;O nama</a></li>
+                <li class="nav-item"><a href="./kontakt.html"><i class="fas fa-phone-square"></i>&nbsp;Kontakt</a></li>
+            </ul>
+            <a href="#">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+        <!-- Hamburger meni-->
+
+
+        <div class="hamburger-menu">
+            <ul>
+                <li>
+                    <a class="active" href="./index.html"><i class="fa fa-home"></i>&nbsp;Početna</a>
+                </li>
+                <li>
+                    <a href="./o_nama.html"><i class="fas fa-users"></i>&nbsp;O nama</a>
+                </li>
+                <li>
+                    <a href="./kontakt.html"><i class="fas fa-phone-square"></i>&nbsp;Kontakt</a>
+                </li>
+                
+            </ul>
+            <a href="#" class="close">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    
+    </header>
+    <aside>
+        <div class="wrap-side">
+            <hr class="hr_top"style="width: 50%; margin: auto; border: 4px solid #b99008;
+            border-radius: 5px;">
+            <div class="title">
+                Registracija
+            </div>
+            <hr style="width: 50%; margin: auto; border: 4px solid #b99008;
+            border-radius: 5px;"> <br>
+            <div class="form" action="post">
+                <div class="input_filde">
+                    <label for="name"> Ime:&nbsp;<i class="fas fa-user"></i></label>
+                    <input type="text" class="input" required placeholder="Filip">
+                </div>
+                <div class="input_filde">
+                    <label for="last_name">Preime:&nbsp;<i class="fas fa-user"></i></label>
+                    <input type="text" class="input" required placeholder="Borović">
+                </div>
+                <div class="input_filde">
+                    <!-- <label for="student-zaposlen">Student <i class="fas fa-user-graduate"></i> / Zaposlen&nbsp;<i class="fas fa-briefcase"></i></label><br> -->
+                    <input type="radio" id="student" name="student-zaposlen" value="student" checked>
+                    <label for="student">Student <i class="fas fa-user-graduate"></i></label>
+                    <input type="radio" id="zaposleni" name="student-zaposlen" value="zaposleni">
+                    <label for="zaposleni">Zaposlen <i class="fas fa-briefcase"></i></label><br>
+                </div>
+                <div class="input_filde">
+                    <label for="password">Lozinka:&nbsp;<i class="fas fa-lock"></i></label>
+                    <input type="password" class="input" required placeholder="Unesite lozinku...">
+                </div>
+                <div class="input_filde">
+                    <label for="confirm_password">Potvrdi lozinku:&nbsp;<i class="fas fa-lock"></i></label>
+                    <input type="password" class="input" required>
+                </div>
+                <div class="input_filde">
+                    <label for="gender">Pol:&nbsp;<i class="fas fa-venus-mars"></i></label>
+                    <div class="custom_select" required>
+                        <select>
+                            <option value="..." selected>...</option>
+                            <option value="muski">Muški</option>
+                            <option value="zenski">Ženski</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input_filde">
+                    <label for="email">Email:&nbsp;<i class="fas fa-envelope"></i></label>
+                    <input type="email" class="input" placeholder="ime@email.com" required>
+                </div>
+                <div class="input_filde">
+                    <label for="phone_number">Telefon:&nbsp;<i class="fas fa-phone"></i></label>
+                    <input type="text" class="input" placeholder="+381 xx xxx xx xx">
+                </div>
+                <div class="input_filde">
+                    <label for="addrese">Adresa:&nbsp;<i class="fas fa-address-card"></i></label>
+                    <textarea class="textarea" placeholder="Ulica i broj&#10;Opstina&#10;Grad"></textarea>
+                </div>
+                <div class="input_filde">
+                    <label for="postal_code">Poštanski broj:&nbsp;<i class="fas fa-map-marker-alt"></i></label>
+                    <input type="text" class="input" required placeholder="11000">
+                </div>
+                <div class="input_filde terms">
+                    <label class="check">
+                        <input type="checkbox" required checked><span class="checkmark"></span>
+                    </label>
+                    <p class="">Prihvatam uslove korišćenja.</p>
+                </div>
+                <div class="input_filde">
+                    <input type="submit" value="Registruj se" class="btn_Reg">
+                </div>
+            </div>
+        </div>
+    </aside>
+    
+    <main>
+        <h2 class="shop-title">Proizvodi</h2>
+        <hr class="hr-title">
+        <section id="products">
+            <div id="product_div">
+                <div class="forma">
+                    <div id="product_item">
+                        <div class="product_item_solo">
+                            <img src="images/proizvodi/dzak-1.jpeg" alt="dzak-1">
+                            <h3>Džak<br>&nbsp;</h3>
+                            <br>
+                            <span>
+                                <p>Cena: <b>11,880 RSD</b></p>
+                            </span>
+                            <span><p>Količina: <input type="number" name="kolicina" min="1" value="1"></p></span>
+                            <button class="btn">Dodaj u korpu&nbsp;<i class="fas fa-shopping-bag"></i></button>
+                        </div>
+                        <div class="product_item_solo">
+                            <img src="images/proizvodi/dzak-2.jpeg" alt="dzak-2">
+                            <h3>Džak <br> Vintage</h3>
+                            <br>
+                            <span>
+                                <p>Cena: <b>29,400 RSD</b></p>
+                            </span>
+                        <span><p>Količina: <input type="number" name="kolicina" min="1" value="1"></p></span>
+                            <button class="btn">Dodaj u korpu&nbsp;<i class="fas fa-shopping-bag"></i></button>
+                        </div>
+                        <div class="product_item_solo">
+                            <img src="images/proizvodi/vijaca.jpeg" alt="vijaca">
+                            <h3>Vijača<br>&nbsp;</h3>
+                            <br>
+                            <span>
+                                <p>Cena: <b>3,000 RSD</b></p>
+                            </span>
+                        <span><p>Količina: <input type="number" name="kolicina" min="1" value="1"></p></span>
+                            <button class="btn">Dodaj u korpu&nbsp;<i class="fas fa-shopping-bag"></i></button>
+                        </div>
+                        <div class="product_item_solo">
+                            <img src="images/proizvodi/rukavice-1.jpeg" alt="rukavice-1">
+                            <h3>Bokserske rukavice <br> BLACK edition</h3>
+                            <br>
+                            <span>
+                                <p>Cena: <b>5,990 RSD</b></p>
+                            </span>
+                        <span><p>Količina: <input type="number" name="kolicina" min="1" value="1"></p></span>
+                            <button class="btn">Dodaj u korpu&nbsp;<i class="fas fa-shopping-bag"></i></button>
+                        </div>
+                        <div class="product_item_solo">
+                            <img src="images/proizvodi/rukacive-2.jpeg" alt="rukacive-2">
+                            <h3>Bokserske rukavice<br>AMBASSADOR black</h3>
+                            <br>
+                            <span>
+                                <p>Cena: <b>6,990 RSD</b></p>
+                            </span>
+                        <span><p>Količina: <input type="number" name="kolicina" min="1" value="1"></p></span>
+                            <button class="btn">Dodaj u korpu&nbsp;<i class="fas fa-shopping-bag"></i></button>
+                        </div>
+                        <div class="product_item_solo">
+                            <img src="images/proizvodi/kaciga.jpeg" alt="kaciga">
+                            <h3>Kaciga<br>BLACK EDITION 2.0</h3>
+                            <br>
+                            <span>
+                                <p>Cena: <b>7,440 RSD</b></p>
+                            </span>
+                        <span><p>Količina: <input type="number" name="kolicina" min="1" value="1"></p></span>
+                            <button class="btn">Dodaj u korpu&nbsp;<i class="fas fa-shopping-bag"></i></button>
+                        </div>
+                        <div class="product_item_solo">
+                            <img src="images/proizvodi/bandazer.jpeg" alt="bandazeri">
+                            <h3>BANDAŽERI<br>MAORI</h3>
+                            <br>
+                            <span>
+                                <p>Cena: <b>1,050 RSD</b></p>
+                            </span>
+                        <span><p>Količina: <input type="number" name="kolicina" min="1" value="1"></p></span>
+                            <button class="btn">Dodaj u korpu&nbsp;<i class="fas fa-shopping-bag"></i></button>
+                        </div>
+                        <div class="product_item_solo">
+                            <img src="images/proizvodi/patike.jpeg" alt="patike">
+                            <h3>Bokserske patike<br>PREMIUM</h3>
+                            <br>
+                            <span>
+                                <p>Cena: <b>7,790 RSD</b></p>
+                            </span>
+                        <span><p>Količina: <input type="number" name="kolicina" min="1" value="1"></p></span>
+                            <button class="btn">Dodaj u korpu&nbsp;<i class="fas fa-shopping-bag"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <div class="news"> -->
+    <div class="index-news">
+        <!-- <div class="news-news-1">
+            <h1>Vesti 1</h1>
+        </div>
+        <div class="news-news-2">
+            <h1>Vesti 2</h1>
+        </div>
+        <div class="news-news-3">
+            <h1>Vesti 3</h1>
+        </div>
+        <div class="news-news-4">
+            <h1>Vesti 4</h1>
+        </div> -->
+        <article>
+            <div class="news-img">
+                <img src="./images/vesti/300x300-1.jpg" alt="300x300-1.jpg">
+            </div>
+            <h3>
+                Habib pobedio Gejdžija sa SLOMLJENIM stopalom
+            </h3>
+            <p>
+                Habib Nurmagomedov se povređen borio protiv Džastina Gejtdžija i uspeo je da ga pobedi i odbrani titulu
+                prvaka UFC-a u lakoj kategoriji.
+                Vest da je Habib u oktagon ušao sa slomljenim stopalom objavio je šef UFC-a Dejna Vajt nakon borbe. On
+                je istakao da ni on nije znao za povredu te da je za nju saznao po završetku meča.
+            </p>
+        </article>
+        <article>
+            <div class="news-img">
+                <img src="./images/vesti/300x300-2.jpg" alt="300x300-2.jpg">
+            </div>
+            <h3>
+                TEŠKE REČI DŽONA DŽONSA: Čestitam Habibu, ali on nije najbolji!
+            </h3>
+            <p>
+                MMA borac, Džon Džons, imao je šta da kaže posle povlačenja Habiba Nurmagomedova. Mnogi smatraju da je
+                Rus najbolji "pound for pound" borac na svetu, ali čini se da to mišljenje Amerikanac baš i ne deli.
+            </p>
+        </article>
+        <article>
+            <div class="news-img">
+                <img src="./images/vesti/300x300-3.jpg" alt="300x300-3.jpg">
+            </div>
+            <h3>
+                KONOR PONOVO U RINGU: Sprema se SPEKTAKL!
+            </h3>
+            <p>
+                Zvanično, Konor Mekgregor se vraća u ring i boksovaće protiv sjajnog Manija Pakjaa. Konor Mekgregor je
+                velika zvezda u svetu borilačkih veština i svojevremeno je bio vlasnik pojasa u dve različite UFC
+                kategorije.
+            </p>
+        </article>
+        <article>
+            <div class="news-img">
+                <img src="./images/vesti/300x300-4.jpg" alt="300x300-4.jpg">
+            </div>
+            <h3>
+                Nole posle DRAME eliminisao Krajinovića!
+            </h3>
+            <p>
+                Novak Đoković je u osmini finala ATP turnira u Beču! Najbolji svetski teniser uspešno je prebrodio
+                srpski derbi i posle dramatične borbe, naročito u prvom setu, eliminisao velikog prijatelja Filipa
+                Krajinovića rezultatom 2:0 (7:6, 6:3), nastavivši put ka drugom peharu u prestonici Austrije posle 13
+                godina.
+            </p>
+        </article>
+    </div>
+    <footer>
+        <ul class="navigation-footer">
+            <li class="nav-items-footer">
+                <span class="bull"> &bull; </span>
+                <a href="#">
+                    &copy; Filip Borovic s11/15
+                </a>
+                <span class="bull"> &bull; </span>
+            </li>
+            <br>
+            <li class="nav-items-footer">
+                <a href="#">
+                    Jurija Gagarina
+                </a>
+                <span class="bull"> &bull; </span>
+            </li>
+            <br>
+            <li class="nav-items-footer">
+                <a href="#">
+                    fborovic15@raf.rs
+                </a>
+                <span class="bull"> &bull; </span>
+            </li>
+            <br>
+            <li class="nav-items-footer">
+                <a href="#">
+                    062/816-06-05
+                </a>
+                <span class="bull"> &bull; </span>
+            </li>
+        </ul>
+    </footer>
+</div>
+</body>
+
+</html>
